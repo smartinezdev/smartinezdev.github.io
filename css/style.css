@@ -1,0 +1,242 @@
+/*Estilos de las fuentes*/
+@font-face {
+    font-family: 'Concert One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/concertone/v11/VEM1Ro9xs5PjtzCu-srDqSTijP4.woff2)
+        format('woff2');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-wg.woff2)
+        format('woff2');
+}
+
+/*Estilos de las fuentes*/
+
+/*Estilos de la barra de desplazamiento*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #406882;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00bfb2;
+    background-image: -webkit-gradient(
+        linear,
+        0 0,
+        0 100%,
+        color-stop(0.5, rgba(255, 255, 255, 0.2)),
+        color-stop(0.5, transparent),
+        to(transparent)
+    );
+}
+
+/*Estilos de la barra de desplazamiento*/
+
+/*Estilos del menú de navegación*/
+.color-menu {
+    background-color: #58355e;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#btn-menu {
+    background-color: rgba(252, 37, 102, 0.466);
+    font-size: 1.125rem;
+    padding: 10px;
+}
+
+.item-li:hover {
+    background-color: rgba(2, 128, 144, 1);
+    transition: all 0.8s ease;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.span-1 {
+    color: #fff;
+    font-family: 'Concert One', sans-serif;
+    font-size: 1.25rem;
+}
+
+/*Estilos del menú de navegación*/
+
+/*Estilos color de fondo del sitio web*/
+.color-fondo {
+    background-color: #8946a6;
+}
+
+/*Estilos color de fondo del sitio web*/
+
+/*Estilos cuerpo de la página*/
+.img-1 {
+    filter: drop-shadow(0px 2px 8px rgba(255, 255, 255, 0.966));
+    transition: transform 0.8s;
+}
+
+.img-1:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Concert One', sans-serif;
+}
+
+.nombre-1,
+.parrafo-1,
+#btn-cta,
+#btn-py1,
+#btn-py2 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#btn-cta {
+    background-color: #028090;
+    border: 2px solid #fff;
+    box-shadow: 0px 8px 15px rgba(247, 244, 244, 0.7);
+    font-size: 1.563rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.8s ease;
+}
+
+#btn-cta:hover {
+    background-color: #f0ece3;
+    border: 2px solid #028090;
+    box-shadow: 0px 8px 15px rgba(2, 128, 144, 1);
+    color: #028090;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+
+#btn-cta:focus {
+    outline: none;
+}
+
+h2 {
+    color: #980f5a;
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+}
+
+h4,
+h5 {
+    color: #2c3e50;
+    font-family: 'Concert One', sans-serif;
+    text-align: center;
+}
+
+.parrafo-2 {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+#tarjeta {
+    background-color: rgba(247, 244, 244, 0.7);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #fff;
+}
+
+#proyectos {
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 10px;
+}
+
+#img-proyectos {
+    filter: drop-shadow(0px 2px 8px rgba(196, 113, 237, 1));
+    transition: transform 0.8s;
+}
+
+#btn-py1 {
+    background-color: #ff2442;
+    box-shadow: 0px 0px 20px #ff2442;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#btn-py2 {
+    background-color: #6ecb63;
+    box-shadow: 0px 0px 20px #6ecb63;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.img-pweb {
+    display: block;
+    filter: drop-shadow(0px 0px 12px rgba(196, 113, 237, 1));
+    margin: auto;
+    transition: transform 0.8s;
+}
+
+.img-pweb:hover,
+#img-proyectos:hover {
+    transform: scale(1.2);
+}
+
+/*Estilos cuerpo de la página*/
+
+/*Estilos pie de la página*/
+footer {
+    text-align: center;
+}
+
+.lnk {
+    filter: drop-shadow(0px 0px 20px rgba(11, 102, 194, 1));
+}
+
+.git {
+    filter: drop-shadow(0px 0px 20px rgba(255, 92, 88, 1));
+}
+
+.tw {
+    filter: drop-shadow(0px 0px 20px rgba(61, 178, 255, 1));
+}
+
+.nombre-2 {
+    font-family: 'Concert One', sans-serif;
+    margin-left: 5px;
+}
+
+.pie-pagina {
+    background-color: #58355e;
+}
+
+.parrafo-3 {
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.nombre-3 {
+    font-family: 'Concert One', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.corazon {
+    color: #ff0000;
+    font-size: 1.563rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    filter: drop-shadow(0px 2px 8px rgba(255, 0, 0, 1));
+}
+
+/*Estilos pie de la página*/
